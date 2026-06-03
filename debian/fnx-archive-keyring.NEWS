@@ -1,0 +1,15 @@
+fnx-archive-keyring (2026.05.20) unstable; urgency=medium
+
+  * Depending on the repository you need to manually add:
+
+      [signed-by=/usr/share/keyrings/fnx-archive-debian.gpg]
+      [signed-by=/usr/share/keyrings/fnx-archive-froonix.gpg]
+
+    to your APT sources lists. See the Debian Wiki for more information:
+
+      https://wiki.debian.org/DebianRepository/UseThirdParty#Sources.list_entry
+
+    If you're upgrading from the outdated signing keys don't forget to
+    remove the legacy key files from /etc/apt/trusted.gpg.d directory!
+
+  -- Christian Schrötter <cs@fnx.li>  Wed, 03 Jun 2026 02:46:19 +0200

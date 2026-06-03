@@ -1,0 +1,13 @@
+Source: fnx-archive-keyring
+Section: misc
+Priority: optional
+Maintainer: Christian Schrötter <cs@fnx.li>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.5.0
+Vcs-Git: https://github.com/froonix/fnx-archive-keyring.git
+Vcs-Browser: https://github.com/froonix/fnx-archive-keyring
+
+Package: fnx-archive-keyring
+Architecture: all
+Depends: ${misc:Depends}
+Description: GnuPG archive keys of the debrep.froonix.org archives

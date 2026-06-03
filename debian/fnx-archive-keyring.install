@@ -1,0 +1,2 @@
+fnx-archive-*.gpg  usr/share/keyrings/
+fnx-archive-*.gpg  etc/apt/trusted.gpg.d/
