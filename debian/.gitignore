@@ -1,0 +1,5 @@
+.debhelper
+files
+fnx-archive-keyring/
+*.log
+*.substvars

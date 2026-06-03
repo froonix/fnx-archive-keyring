@@ -1,3 +1,9 @@
+fnx-archive-keyring (2026.05.22) unstable; urgency=medium
+
+  * Fix filetype of GPG files.
+
+ -- Christian Schrötter <cs@fnx.li>  Wed, 03 Jun 2026 04:51:29 +0200
+
 fnx-archive-keyring (2026.05.20) unstable; urgency=medium
 
   * Initial release with new keys from 2026-05-20.
